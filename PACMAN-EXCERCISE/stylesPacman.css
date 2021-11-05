@@ -1,0 +1,38 @@
+div1 {
+  position: absolute;
+  text-align: center;
+  font-size: small;
+  color: red;
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-color: black;
+}
+
+.square {
+  position: absolute;
+  top: 20%;
+  margin: 20px auto;
+
+  height: 75%;
+  width: 100%;
+  background-color: rgb(61, 61, 61);
+  border: 3px rgb(255, 251, 0) solid;
+}
+
+.githublogo {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+
+strong:hover {
+  color: chartreuse;
+}
+
+.buttoms {
+  display: grid;
+  grid-template-columns: 10% 10%;
+  justify-items: stretch;
+  justify-content: center;
+}

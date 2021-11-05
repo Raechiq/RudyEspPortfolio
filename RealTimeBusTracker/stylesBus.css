@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 5.5%;
+  bottom: 0;
+  width: 100%;
+}
+
+.marker {
+  background-image: url("/RealTimeBusTracker/autobus.png");
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999999;
+  will-change: transform;
+  transition: transform 200ms linear;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+element.style {
+  position: fixed !important;
+}
+
+strong:hover {
+  color: chartreuse;
+}
+
+.githublogo {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}

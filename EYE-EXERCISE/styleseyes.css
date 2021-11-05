@@ -1,0 +1,97 @@
+.texto {
+  text-align: center;
+  position: relative;
+  top: 7%;
+  color: white;
+}
+.circle {
+  border-radius: 90% 90% 90% 90% / 70% 70% 90% 90%;
+  width: 400px;
+  height: 560px;
+  background: white;
+  position: relative;
+  filter: drop-shadow(0 0 30px #333);
+  top: 10%;
+}
+.space {
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #14495e;
+}
+
+.eyes {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 120px;
+  height: 130px;
+  background: #fff;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 1px black solid;
+  filter: drop-shadow(0 10px 10px rgb(53, 49, 75));
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999999;
+  will-change: transform;
+  transition: transform 200ms linear;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+element.style {
+  position: fixed !important;
+}
+
+strong:hover {
+  color: chartreuse;
+}
+
+.githublogo {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}

@@ -1,0 +1,161 @@
+.row {
+  flex-wrap: nowrap;
+  justify-content: center;
+  grid-template-columns: 0px;
+}
+
+.py-5 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+body {
+  padding-top: 0 px !important;
+}
+
+.pt-lg-5 {
+  padding-top: 0rem !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+  text-align: -webkit-center;
+}
+
+h2 {
+  color: #353535;
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 1.5%;
+  padding-bottom: 12%;
+  padding-top: 20%;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.proyectos {
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: space-between !important;
+
+  gap: 20% !important;
+}
+.videoRudy {
+  display: block;
+}
+
+img {
+  padding: 0px;
+  border-radius: 50%;
+  background: transparent;
+  border-color: black 2px;
+}
+
+.col-lg-7 {
+  /* width: 85%; */
+  margin-left: 0%;
+  margin-right: 0%;
+  row-gap: 20px;
+}
+
+.btn-primary {
+  padding-top: 0;
+}
+
+.small-text {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.row-cols-md-3 > * {
+  flex: 0 auto 0;
+  width: 65%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img.proyectoicon {
+  width: 45%;
+  height: auto;
+  border-radius: 0%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 20%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 12%;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 50%),
+      rgba(255, 255, 255, 50%)
+    ),
+    url("wpbackgnd.jpg");
+}
+
+.boxbio {
+  background-color: #ffffffb0;
+}
+
+.colorback {
+  background-color: #ffffffb0 !important;
+}
+.githublogo {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+h7.gitID {
+  color: rgba(235, 26, 26, 0.25) !important;
+  position: absolute !important;
+  top: 75%;
+  left: 63%;
+  font-size: xx-large;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: bold;
+  text-shadow: 2px 2px rgb(146, 146, 146);
+}
+
+.navbar {
+  display: grid;
+  justify-content: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.spacing {
+  position: relative;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
