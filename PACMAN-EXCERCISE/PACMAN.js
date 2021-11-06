@@ -103,7 +103,7 @@ function startsound(){
 if(setTKey===0){
     setTKey=1; 
 console.log("T1",setTKey);
-mySound = new sound("wakawaka.mp3");
+mySound = new sound("./wakawaka.mp3");
 mySound.play();
 Run();
 }

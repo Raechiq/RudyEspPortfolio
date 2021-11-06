@@ -11,7 +11,7 @@ body {
 }
 
 .marker {
-  background-image: url("/RealTimeBusTracker/autobus.png");
+  background-image: url("./autobus.png");
   background-size: cover;
   width: 35px;
   height: 35px;
