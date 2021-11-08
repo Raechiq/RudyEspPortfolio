@@ -40,7 +40,8 @@ if (typeof module !== 'undefined') {
 async function run(){
     // get bus data    
 	const locations = await getBusLocations();
-	console.log(new Date());
+	console.log(locations);
+	
 	mapMarkers.forEach((marker) => marker.remove())
 	mapMarkers = []
 	

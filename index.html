@@ -1,228 +1,267 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rudy Espinoza Portfolio</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portafolio Rudy Espinoza</title>
+<!--https://www.free-css.com/ & Boostrap / Unicons-->
+<link rel="stylesheet" href="./FreeCSS/css/bootstrap.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+<link rel="stylesheet" href="./FreeCSS/css/tooplate-style.css">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<!-- Personal Changes -->
+<link rel="stylesheet" href="./FreeCSS/css/styles.css">
     
 
-    <!--Javascript section: Nothing Yet-->
-    <script defer src="./script.js"></script>
 
-    
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="./css/styles2.css" rel="stylesheet">
-    <link href="./css/styles.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
 
-</head>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="https://github.com/Raechiq/RudyEspPortfolio" target="_blank"><i class='uil uil-github'></i>Repository</a>
 
-<body>
-<!--Header End Ref https://getbootstrap.com/docs/5.1/examples/album/#-->
-
-
-<header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container">
-
-      <a href="#section1" class="navbar-brand d-flex align-items-center">
-        <svg class="githublogo" style="padding-right:2%" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-        <strong>  BIO</strong>
-      </a>
-
-      <a href="#section2" class="navbar-brand d-flex align-items-center">
-        <svg class="githublogo" style="padding-right:2%" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z"/></svg>
-        <strong>    PROJECTS</strong>
-      </a>
-      <a href="https://github.com/Raechiq/RudyEspPortfolio/" class="navbar-brand d-flex align-items-center" target="_blank">
-        <svg class="githublogo" style="padding-right:2%" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 25 25"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-        <strong>    GO TO REPOSITORY</strong>
-      </a>
-
-    </div>
-  </div>
-</header>
-
-<h7 class="gitID">
-  Github ID: Raechiq
-</h7>
-
-  <!--Header End-->
-
-
-
-
-<div>
-
-<!--Reference from Boobstrap example: https://getbootstrap.com/docs/5.1/examples/pricing/-->
-<!--This sections allows me to create one framework for each of the projects developed so far-->
-
-<!--Video Personal-->
-
-<div class="container my-5">
-  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg boxbio">
-    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-      <!-- <h1 class="display-4 fw-bold lh-1">Rudy Espinoza</h1> -->
-      
-  <!--Reference:https://www.free-css.com/free-css-templates/page270/marvel -->
-  <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
-    <div class="container">
-        <div class="row">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             
-            <div class="block1">
-                <div class="about-text">
-                  <h1 class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></h1>
-                    <h1 class="animated animated-text">
-                        <span class="mr-2">Hey guys, I'm </span><span class="mr-2" style="color: crimson; text-align:center;">Rudy Espinoza</span>
-                            <div class="animated-info">
-                              <P>
-                                
-                                <li class="animated-item">Chemical Engineer</li>
-                                <li class="animated-item">Scrum Master</li>
-                                <li class="animated-item">Master of Enginering Management</li>
-                                <li class="animated-item">Full Stack Developer (Student)</li>
-                             
-                              </P>
-                              </div>
-                    </h1>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item" href="#section1" >
+                        <a href="#motivation" class="nav-link"><span data-hover="Motivation"><i class="uil uil-head-side">Motivation</i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects"><i class="uil uil-folder-open">Projects</i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Education"><i class="uil uil-book-alt">Education</i></span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#contact" class="nav-link"><span data-hover="Contact"><i class="uil uil-google-hangouts-alt">Contact</i></span></a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="#home" class="nav-link"><span data-hover="Home"><i class="uil uil-estate">Home</i></span></a>
+                 </li>
+                </ul>
 
-                    <p class ="BIO" style="margin-bottom: 0;">I’m an Engineer with 10 years of experience in Supply Chain Management. Oriented to improve customer service, operations performance and project rentability. Capable to deep dive business data to drive fact base decisions; able to create long term alliances with customer and vendors to seek common growth. Passionate about self-learning and constantly seeking for new ways of working.</p>
-                    
-                    <div class="custom-btn-group mt-4"> </div>
+           </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <div class="introsection">
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="home">
+      
+      <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-md-12 col-12">
+                
+                <div class="about-image svg">
+                  <small class="small-text">Welcome to my portfolio website!</small>    
+                    <img src="./FreeCSS/css/FotoPersonal.jpg" class="img-fluid" alt="svg image"></img >
+                    <small class="small-text2"><i class="uil uil-github-alt">Github User: raechiq</i></small>   
                 </div>
+            </div>  
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        
+                        <h1 class="animated animated-text">
+                           <div class="intro"> <span class="mr-2">Hey guys, I'm </span><span class="mr-2" style="color: crimson; text-align:center;">Rudy Espinoza</span></div>
+                              <h100 class="animatedtext">
+                                <div class="animated-info">
+                                    <span class="animated-item">Chemical Engineer</span>
+                                    <span class="animated-item">Master of Enginering Management</span>
+                                    <span class="animated-item">Scrum Master</span>
+                                    <span class="animated-item">Full Stack Developer (Student)</span>
+                                </div>
+                              </h100>
+                        </h1>
+
+                        <p class="personalbio">I’m an Engineer with 10 years of experience in Supply Chain Management. Oriented to improve customer service, operations performance and project rentability. Capable to deep dive business data to drive fact base decisions; able to create long term alliances with customer and vendors to seek common growth. Passionate about self-learning and constantly seeking for new ways of working.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="https://drive.google.com/file/d/17k6JFNRFXRDWzXyOeNcCZC6VqWGXk2NZ/view?usp=sharing" target="_blank" class="btn custom-btn custom-btn-bg custom-btn-link"><i class='uil uil-file-alt'></i>Resume</a>
+                          <a href="https://www.linkedin.com/in/rudy-espinoza-7069a038" target="_blank" class="btn custom-btn custom-btn-bg custom-btn-link"><i class="uil uil-linkedin">Linkedin</i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
-    </div>
+    </section>
+
+  </div>
+<!-- SECTION1 -->
+
+<section id="motivation">
+<hr class="featurette-divider" id="#section1">
+
+<div class="biovideo">
+  <div class="col-md-7">
+    <h2 class="featurette-heading">Lets talk about my motivation</h2>
+    <p class="lead">In this video I’ll explain the motivation behind why I’m learning coding and my expectation and plans for the future.</p>
+  </div>
+  <div class="containervideo">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5R9Fc9aIy2k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="videorudy" allowfullscreen></iframe>
+  </div>
+</div>
 </section>
+<hr class="featurette-divider">
 
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
 
+                      <div class="col-lg-8 mx-auto">
+                        <h2 class="projectintrotext">These are few of the projects developed during the MIT Full Stack Developer Course</h2>
+                      </div>
 
-      <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3" style="padding-top: 0em;padding-left: 30%">
-        <a href="https://drive.google.com/file/d/17k6JFNRFXRDWzXyOeNcCZC6VqWGXk2NZ/view?usp=sharing" target="_blank"> <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"> CV </button></a>
-        <a href="https://www.linkedin.com/in/rudy-espinoza-7069a038" target="_blank"> <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"> Linkedin </button></a>
-      </div>
-    </div>
-    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" style="height: 100%; margin-left: 2.3%; border-radius: 50%;  border: 1px rgb(180, 178, 178) solid;filter: drop-shadow(0 0 10px rgb(14, 57, 65));">
-      <img src="./css/FotoPersonal.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" style="padding-bottom: 0%;"></img>
-    </div>
-  </div>
-</div>
-<!--Inicia seccion del video-->
-
-<div class="spacing"id="section1" >
-<div class="container col-xxl-8 video-container">
-  <div class="row align-items-center">
-    <div class="col-lg-6">
-      <iframe class="videorudy"  src="https://www.youtube.com/embed/il_t1WVLNxk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           
-    </div>
-    <div class="col-lg-6 textvideo">
-      <h1 class="col-lg-8 mx-auto" style="font-size: 430%; position:relative; margin-top: 25%;">Motivation</h1>
-      <p class="lead">In this video I’ll explain the motivation behind why I’m learning coding and my expectation and plans for the future. </p>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-<!--Fin de Intro Personal-->
-<div class="col-lg-8 mx-auto">
-  <h2>These are few of the projects developed during the MIT Full Stack Developer Course</h2>
-</div>
-
-<!--Proyectos-->
-
-
-<div class="row row-cols-1 row-cols-md-3 mb-3 text-center" style="--bs-gutter-x:3em;">
-<div class="proyectos" id="section2">
-  <!--First Project: PACMAN-->
-    <div class="col">
-      <div class="card mb-4 rounded-3 shadow-sm colorback">
-        <div class="card-header py-3 text-white bg-primary border-primary">
-          <h4 class="my-0 fw-normal">PACMAN</h4>
+                    </div>
+                </div>
+              
         </div>
-        <div class="card-body">
-          <img class="proyectoicon" src="./PACMAN-EXCERCISE/PacMan2.png"></img>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>ALMOST A GAME</li>
 
-          </ul>
-          <input type=button onClick=window.open("./PACMAN-EXCERCISE/PACMAN.html","Ratting","width=1000,height=850,left=150,top=200,toolbar=0,status=0,"); value="CHECK"  class="w-100 btn btn-lg btn-primary"> 
+        <div class="container marketing">
+
+          <!-- Three columns of text below the carousel -->
+          <div class="row2">
+
+            <!--PACMAN SECTION-->
+            <div class="col-lg-4">
+            <div class="circleicon"><img class="proyectoicon" src="./PACMAN-EXCERCISE/PacMan2.png"></img></div>
+               <h2>PACMAN</h2>
+              <p>WHERE IS THE GOSTH?</p>
+              <p><a class="btn custom-btn custom-btn-bg custom-btn-link" href="./PACMAN-EXCERCISE/PACMAN.html" target="_blank">CHECK &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+
+                  <!--EYES SECTION-->
+            <div class="col-lg-4">
+              <div class="circleicon"><img class="proyectoicon" src="./FreeCSS/css/eyes.png"></img></div>
+              <h2>MOVING EYES</h2>
+              <p>CRAZY EYES MOVING</p>
+              <p><a class="btn custom-btn custom-btn-bg custom-btn-link" href="./EYE-EXERCISE/eyes.html" target="_blank">CHECK &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+
+                  <!--BUS SECTION-->
+            <div class="col-lg-4">
+              <div class="circleicon"><img class="proyectoicon" src="./RealTimeBusTracker/autobus.png"></img></div>
+              <h2>BUS TRACKER</h2>
+              <p>MIT BUS ROUTE</p>
+              <p><a class="btn custom-btn custom-btn-bg custom-btn-link" href="./RealTimeBusTracker/RealtimeTracker.html"target="_blank">CHECK &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+
+        
+
+    </section>
+
+
+
+
+    <hr class="featurette-divider">
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container"id="grid1">
+            <div class="row" >
+
+     
+                  <h2 class="mb-4">Education</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2021</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Full Stack Developer</span><small>MITxpro w/ EMERITUS (enrolled) </small></h3>
+                                  <p><img class="logoinstitution" src="./FreeCSS/css/MITxpro.png"></img></p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2021</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Certified SCRUM MASTER</span><small>VMEdu</small></h3>
+                                <p><img class="logoinstitution" src="./FreeCSS/css/scrumstudy.png"></img></p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2016</span>
+                            </div>
+                            <div class="timeline-info">
+                              <h3><span>Master of Engineering Management</span><small>QUT</small></h3>
+                                <p><img class="logoinstitution" src="./FreeCSS/css/QUT.png"></img></p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2010</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Chemical Engineering<small>UVG</small></h3>
+                                <p><img class="logoinstitution" src="./FreeCSS/css/UVG.png"></img></p>
+                            </div>
+                        </div>
+
+                    </div>
+                       
+            </div>
         </div>
-      </div>
-    </div>
+    </section>
 
 
-    <!--Second Project: EYEBALLS-->
-    <div class="col">
-      <div class="card mb-4 rounded-3 shadow-sm colorback">
-        <div class="card-header py-3 text-white bg-primary border-primary">
-          <h4 class="my-0 fw-normal">EYEBALLS</h4>
-        </div>
-        <div class="card-body">
-          <img class="proyectoicon" src="./EYE-EXERCISE/eyes.png"></img>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>CRAZY EYES</li>
+    <!-- FOOTER -->
+    <section id="contact">
+    <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+                <p class="fs-5 mb-4"> <div class="contact" id="section4">CONTACT</div>
+                    <ul class="mover" style="font-weight: bold;"><i class="uil uil-at">Email:</i> <larger class="text-muted fw-light" style="font-weight: bold;">Rudy.esp86@gmail.com</ul>
+                    <ul class="mover" style="font-weight: bold;"><i class="uil uil-phone">Phone:</i> <larger class="text-muted fw-light" style="font-weight: bold;">(502) 5800-8532</ul>
+                </p>
 
-          </ul>
-          <input type=button onClick=window.open("./EYE-EXERCISE/eyes.html","Ratting","width=1000,height=850,left=150,top=200,toolbar=0,status=0,"); value="CHECK"  class="w-100 btn btn-lg btn-primary"> 
-        </div>
-      </div>
-    </div>
-    <!--Third Project: LIVE TRACKING-->
-    <div class="col">
-      <div class="card mb-4 rounded-3 shadow-sm colorback">
-        <div class="card-header py-3 text-white bg-primary border-primary">
-          <h4 class="my-0 fw-normal">BUS TRACKER</h4>
-        </div>
-        <div class="card-body">
-          <img class="proyectoicon" src="./RealTimeBusTracker/autobus.png"></img>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>MIT BUS ROUTE</li>
-
-          </ul>
-          <!-- <button type="button" class="w-100 btn btn-lg btn-primary">CHECK</button> -->
-          
-          <input type=button onClick=window.open("./RealTimeBusTracker/RealtimeTracker.html","Ratting","width=1000,height=850,left=150,top=200,toolbar=0,status=0,"); value="CHECK"  class="w-100 btn btn-lg btn-primary"> 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-</div>
-<!-----End Boobstrap Example---->
+               </div>
+          </div>
+     </footer>
+    </section>
+     <!--Ref: Boostrap, Free-CSS--->
+     <script src="./FreeCSS/js/jquery-3.3.1.min.js"></script>
+     <script src="./FreeCSS/js/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <script src="./FreeCSS/js/bootstrap.min.js"></script>
+     <script src="./FreeCSS/js/Headroom.js"></script>
+     <script src="./FreeCSS/js/jQuery.headroom.js"></script>
+     <script src="./FreeCSS/js/owl.carousel.min.js"></script>
+     <script src="./FreeCSS/js/smoothscroll.js"></script>
+     <script src="./FreeCSS/js/custom.js"></script>
+ 
 
 
-<div class="bg-dark text-secondary px-4 py-5 text-center">
-  <div class="py-5">
-    <h1 class="display-5 fw-bold text-white">Contact</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="fs-5 mb-4">
-
-          <ul style="font-weight: bold;">Email: <larger class="text-muted fw-light" style="font-weight: bold;">Rudy.esp86@gmail.com</ul>
-
-      </p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="b-example-divider mb-0"></div>
-
-<!--This section contains my current education Education-->
-
-
-
-
-</body>
+  </body>
+ 
 </html>
