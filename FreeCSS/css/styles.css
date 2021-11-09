@@ -199,6 +199,7 @@ footer {
 section#resume {
   display: grid !important;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 10em !important;
 }
 
 div#grid1 {
