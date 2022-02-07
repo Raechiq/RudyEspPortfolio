@@ -103,13 +103,19 @@ const Products = (props) => {
     let name = e.target.name;
     let item = items.filter((item) => item.name == name);
     // console.log(`add to Cart ${JSON.stringify(item)}`);
+    if (item[0].instock > 0){
     item[0].instock-=1
-    console.log("revisar",data);
-    console.log("items",items)
+
     setCart([...cart, ...item]);
     //doFetch(query);
+    };
   };
   const deleteCartItem = (index) => {
+    let name = cart[index].name
+    let item = items.filter((item) => item.name == name);
+    item[0].instock+=1
+  
+
     let newCart = cart.filter((item, i) => index != i);
     setCart(newCart);
   };
@@ -121,7 +127,7 @@ const Products = (props) => {
   let list = items.map((item, index) => {
     //let n = index + 1049;
     //let url = "https://picsum.photos/id/" + n + "/50/50";
-    console.log("revisar item",)
+    
     return (
       <li key={index}>
         <Image src={photos[item.name]} width={70} roundedCircle></Image>
@@ -168,18 +174,18 @@ const Products = (props) => {
     let costs = cart.map((item) => item.cost);
     const reducer = (accum, current) => accum + current;
     let newTotal = costs.reduce(reducer, 0);
-    console.log(`total updated to ${newTotal}`);
+    // console.log(`total updated to ${newTotal}`);
     return newTotal;
   };
   // TODO: implement the restockProducts function
   const restockProducts = (url) => {
     doFetch(url);
-    console.log("revasdasdisar" ,data.data);
+  
     
       let newItems = data.data.map((item=>{
-      console.log("item",item.attributes)
+      // console.log("item",item.attributes)
       let {name,country,cost,instock} = item.attributes;
-      console.log(name);
+      // console.log(name);
       return {name, country,cost, instock};
     }))
     setItems([...items,...newItems]);
